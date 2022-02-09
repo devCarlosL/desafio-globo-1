@@ -24,7 +24,12 @@ export function SearchBar() {
   return (
       <FormContainer onSubmit={handleSubmit}>
         <FormControl>
-          <SearchInput ref={searchInput} type="text" $isError={status === 'error'} />
+          <SearchInput
+            type="text"
+            placeholder="Pesquisar usuário"
+            ref={searchInput}
+            $isError={status === 'error'}
+          />
           <SearchButton type="submit" $isError={status === 'error'}>
             {status === 'pending' ? 'Carregando...' : 'Procurar'}
           </SearchButton>

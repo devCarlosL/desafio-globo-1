@@ -92,3 +92,10 @@ export const Avatar = styled.img`
   width: 100px;
   border-radius: 50%;
 `;
+
+export const Title = styled.h1`
+  padding: 8px;
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #00bcd4;
+`;
