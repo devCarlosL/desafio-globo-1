@@ -1,6 +1,4 @@
-# Github Profile
-
-Pesquisar usuários do github.
+# Pesquisar usuários do github.
 
 ## Instalação
 
